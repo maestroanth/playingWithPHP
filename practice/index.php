@@ -8,7 +8,7 @@
  */
 include 'DB/dbconn.php';
 include 'DB/queries.php';
-
+require 'vendor/autoload.php';
 
 $con = OpenCon();
 ob_start();//can use a callback function as a parameter to sanitize string (use str_replace(regexpression))
